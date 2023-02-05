@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css"
 import CTA from "./CTA"
 import myimg from "../../assets/senddp.png"
+import HeaderSocials from "./HeaderSocials";
 
 function Header(){
     return(
@@ -13,12 +14,14 @@ function Header(){
                     <h5 className = "text-light">Frontend Developer</h5>
                     <CTA />
 
+                    <HeaderSocials />
                     
                     <div className = "me">
                         <img src = {myimg} alt = "" />
                     </div>
 
                     <a href = "#contact" className = "scroll_down">Scroll Down</a>
+
                 </div>
             </header>
         </div>

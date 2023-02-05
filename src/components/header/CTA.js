@@ -1,7 +1,6 @@
 import React from "react";
 import CV from "../../assets/ezeigboemmanuel.pdf";
 
-
 function CTA() {
     return(
         <div className = "cta">
