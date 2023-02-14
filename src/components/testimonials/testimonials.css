@@ -1,5 +1,6 @@
 .container.testimonials_container{
     width: 40%;
+    padding-bottom: 4rem;
 }
 
 .client_avatar{
@@ -17,6 +18,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    transition: var(--transition);
 }
 
 .client_review{
